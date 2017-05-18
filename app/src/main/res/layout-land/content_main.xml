@@ -28,7 +28,6 @@
             android:id="@+id/name"
             android:layout_weight="0.5" />
 
-
         <EditText
             android:layout_width="20dp"
             android:layout_height="wrap_content"
@@ -37,8 +36,6 @@
             android:id="@+id/quantity"
             android:hint="@string/qty"
             android:layout_weight="0.5" />
-
-
 
 
     </LinearLayout>
