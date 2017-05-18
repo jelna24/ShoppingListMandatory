@@ -51,19 +51,21 @@
 
         <Button
             android:id="@+id/addButton"
-            android:text="@string/add_to_list"
-            android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"/>
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:background="@android:color/holo_green_dark"
+            android:text="@string/add_to_list" />
 
         <Button
             android:id="@+id/removeButton"
-            android:text="@string/remove"
-            android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"/>/>
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:background="@color/errorColor"
+            android:text="@string/remove" />/>
 
     </LinearLayout>
 
