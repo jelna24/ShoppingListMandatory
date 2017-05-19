@@ -15,11 +15,14 @@
     tools:context="org.projects.shoppinglist.MainActivity"
     tools:showIn="@layout/activity_main">
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="1">
-        <EditText
+
+        <AutoCompleteTextView
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:inputType="textAutoComplete"
@@ -27,6 +30,7 @@
             android:hint="@string/item"
             android:id="@+id/name"
             android:layout_weight="0.5" />
+
 
         <EditText
             android:layout_width="20dp"
@@ -36,7 +40,6 @@
             android:id="@+id/quantity"
             android:hint="@string/qty"
             android:layout_weight="0.5" />
-
 
     </LinearLayout>
 
@@ -48,19 +51,21 @@
 
         <Button
             android:id="@+id/addButton"
-            android:text="@string/add_to_list"
-            android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"/>
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:background="@android:color/holo_green_dark"
+            android:text="@string/add_to_list" />
 
         <Button
             android:id="@+id/removeButton"
-            android:text="@string/remove"
-            android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"/>/>
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:background="@color/errorColor"
+            android:text="@string/remove" />/>
 
     </LinearLayout>
 
