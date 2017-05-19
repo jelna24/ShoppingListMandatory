@@ -14,6 +14,32 @@
     <string name="delete_all">Delete all</string>
     <string name="confirmation">Confirm</string>
 
+    <string-array name="products_array">
+        <item>Banana</item>
+        <item>Apples</item>
+        <item>Grapes</item>
+        <item>Lemons</item>
+        <item>Melons</item>
+        <item>Oranges</item>
+        <item>Peaches</item>
+        <item>Strawberries</item>
+        <item>Broccoli</item>
+        <item>Carrots</item>
+        <item>Garlic</item>
+        <item>Onions</item>
+        <item>Potato</item>
+        <item>Tomato</item>
+        <item>Milk</item>
+        <item>Cheese</item>
+        <item>Yogurt</item>
+        <item>Pork</item>
+        <item>Deodorant</item>
+
+
+
+
+
+    </string-array>
 
 
 </resources>
